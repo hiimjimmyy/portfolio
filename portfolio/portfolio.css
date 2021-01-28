@@ -184,18 +184,67 @@ body{
 	font-size: 230%;
 }
 
+
 .projects{
 	background-color: black;
 	color: white;
-	padding-top: 20%;
-	padding-right: 20%;
-	padding-left: 20%;
-	padding-bottom: 20%;
-	text-align: center;
 	margin-top: -10rem;
+	padding-top: 15rem;
+	padding-bottom: 100px;
 }
 
 .projects #text{
-	font-size: 80px;
+	padding-top: 2em;
 	letter-spacing: 5px;
+	font-size: 50px;
+	text-align: center !important;
+}
+
+.projectContainer{
+	position: relative;
+	width: auto;
+	margin: 0 auto;
+	flex-grow: 1;
+	max-width: 1400px;
+	border: 100px white;
+}
+
+.projectContainer.box{
+	background-color: white;
+	position: relative;
+	color: black;
+	box-shadow: 2px;
+	box-sizing: inherit;
+	display: block;
+	border-radius: 30px;
+	box-shadow: 0 5px 50px 0 rgba(233, 240, 243, 0.5), 0 0 0 1px white;
+}
+
+.projectContainer.left{
+	font-size: large;
+	position: relative;
+	max-width: 700px;
+	height: auto;
+	padding-bottom: 50px;
+	border-right: 1px solid grey;
+	margin: 0;
+	text-align: center;
+}
+
+.projectContainer.left h1{
+	font-weight: lighter;
+	text-decoration: underline;
+	font-size: 230%;
+}
+
+.projectContainer.right{
+	font-size: large;
+	position: relative;
+	top: 0;
+	left: 0;
+	width: 700px;
+	height: auto;
+	padding-bottom: 50px;
+	float: right;
+	margin-top: -281px;
 }
