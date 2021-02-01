@@ -65,6 +65,7 @@ body{
 .aboutmeContainer{
 	background-color: black;
 	color: white;
+	display: fill;
 }
 
 .aboutmeCenter{
@@ -258,6 +259,7 @@ body{
 
 
 .contactContainer{
-	background-color: black;
-	color: white;
+	background-color: white;
+	color: black;
+	text-align: center !important;
 }
